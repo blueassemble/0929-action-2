@@ -32,7 +32,8 @@ jobs:
            java-version: '11'
            cache: 'gradle'
       - run: chmod +x ./my-spring-board/gradlew
-      - run: ./my-spring-board/gradlew clean build
+      - run: ./my-spring-board/gradlew clean
+      - run: ./my-spring-board/gradlew build
       #- uses: actions/upload-artifact@v2
         #with:
           #name: Package

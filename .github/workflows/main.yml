@@ -37,7 +37,7 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: WAR
-          path: ./my-spring-board/build/libs
+          path: my-spring-board/build/libs
       #- run: cp ./my-spring-board/build/libs/*.war ./dockerfile
 
 
